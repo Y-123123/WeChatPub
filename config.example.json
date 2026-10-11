@@ -1,0 +1,11 @@
+{
+  "topic": "脑科学、人工智能与脑机接口 / Brain, artificial intelligence and BCI",
+  "sources": ["pubmed", "arxiv"],
+  "query": "(brain[Title/Abstract] OR \"artificial intelligence\"[Title/Abstract] OR \"brain-computer interface\"[Title/Abstract] OR \"brain machine interface\"[Title/Abstract]) AND english[Language]",
+  "arxiv_query": "(all:brain OR all:\"artificial intelligence\" OR all:\"brain-computer interface\")",
+  "max_results": 3,
+  "lookback_days": 30,
+  "mode": "publish",
+  "interval_hours": 24,
+  "poll_seconds": 15
+}
